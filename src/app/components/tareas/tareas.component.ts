@@ -8,7 +8,7 @@ import { Tarea } from 'src/app/models/Tarea';
 })
 export class TareasComponent implements OnInit {
 
-  listTareas: Tarea[] = []
+  listTareas: Tarea[] = [];
   nombreTarea = '';
 
   constructor() { }
